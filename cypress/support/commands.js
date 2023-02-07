@@ -1,3 +1,4 @@
+
 Cypress.Commands.add('fillMandatoryFieldsAndSubmit', function(){
     
         cy.get('#firstName').type('Natália')
